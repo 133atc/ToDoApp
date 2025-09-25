@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To‑Do List</title>
+<link rel="stylesheet" href="design.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>To‑Do</h1>
+      <button id="theme-toggle" class="btn btn-ghost" type="button" aria-label="Toggle theme">🌓</button>
+    </header>
+
+    <div class="card">
+      <div class="row">
+        <input id="todo-input" type="text" placeholder="What needs to get done?" />
+        <button id="add-btn" class="btn btn-primary" type="button">Add</button>
+      </div>
+      <ul id="list"></ul>
+    </div>
+
+    <div class="footnote">Double‑click a task to edit • Enter to save • Esc to cancel</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
